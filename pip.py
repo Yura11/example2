@@ -2,7 +2,7 @@ import os
 
 def list_files_in_directory():
     # Get directory path from the environment variable
-    dir_path = os.environ('DIRECTORY_PATH')
+    dir_path = os.environ['DIRECTORY_PATH']
     
     if not dir_path:
         print("Environment variable 'DIRECTORY_PATH' is not set.")
